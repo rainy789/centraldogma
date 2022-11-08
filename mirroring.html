@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>Better configuration change workflow with Git-to-CD mirroring &mdash; Central Dogma 0.57.3 documentation</title>
+  <title>Better configuration change workflow with Git-to-CD mirroring &mdash; Central Dogma 0.58.0 documentation</title>
   
 
   
@@ -72,7 +72,7 @@
             
             
               <div class="version">
-                0.57
+                0.58
               </div>
             
           
@@ -104,6 +104,7 @@
 <li class="toctree-l1"><a class="reference internal" href="client-java.html">Java client library</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Better configuration change workflow with Git-to-CD mirroring</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#setting-up-a-git-to-cd-mirror">Setting up a Git-to-CD mirror</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#setting-up-a-cd-to-git-mirror">Setting up a CD-to-Git mirror</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#mirror-limit-settings">Mirror limit settings</a></li>
 </ul>
 </li>
@@ -408,6 +409,11 @@ If unspecified or <code class="docutils literal notranslate"><span class="pre">n
   &quot;sourceRevision&quot;: &quot;22fb176e4d8096d709d34ffe985c5f3acea83ef2&quot;
 }</pre></div>
 </div>
+</div>
+<div class="section" id="setting-up-a-cd-to-git-mirror">
+<h2>Setting up a CD-to-Git mirror<a class="headerlink" href="#setting-up-a-cd-to-git-mirror" title="Permalink to this headline">¶</a></h2>
+<p>It’s exactly the same as setting up a Git-to-CD mirror which is described above, except you need to specify
+<code class="docutils literal notranslate"><span class="pre">direction</span></code> with <code class="docutils literal notranslate"><span class="pre">LOCAL_TO_REMOTE</span></code>.</p>
 </div>
 <div class="section" id="mirror-limit-settings">
 <h2>Mirror limit settings<a class="headerlink" href="#mirror-limit-settings" title="Permalink to this headline">¶</a></h2>

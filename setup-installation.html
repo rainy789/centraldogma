@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>Installation &mdash; Central Dogma 0.57.3 documentation</title>
+  <title>Installation &mdash; Central Dogma 0.58.0 documentation</title>
   
 
   
@@ -72,7 +72,7 @@
             
             
               <div class="version">
-                0.57
+                0.58
               </div>
             
           
@@ -203,14 +203,14 @@ set correctly.</p>
 </div>
 <div class="section" id="download">
 <h2>Download<a class="headerlink" href="#download" title="Permalink to this headline">¶</a></h2>
-<p><a href="https://github.com/line/centraldogma/releases/download/centraldogma-0.57.3/centraldogma-0.57.3.tgz">Download</a> the tarball and extract it into your preferred location:</p>
-<pre class="highlight-shell literal-block">$ tar zxvf centraldogma-0.57.3.tgz</pre>
+<p><a href="https://github.com/line/centraldogma/releases/download/centraldogma-0.58.0/centraldogma-0.58.0.tgz">Download</a> the tarball and extract it into your preferred location:</p>
+<pre class="highlight-shell literal-block">$ tar zxvf centraldogma-0.58.0.tgz</pre>
 </div>
 <div class="section" id="startup-and-shutdown">
 <h2>Startup and shutdown<a class="headerlink" href="#startup-and-shutdown" title="Permalink to this headline">¶</a></h2>
 <p>The distribution is shipped with a simple configuration with replication disabled, so you can play with it
 immediately:</p>
-<pre class="highlight-shell literal-block">$ cd centraldogma-0.57.3/
+<pre class="highlight-shell literal-block">$ cd centraldogma-0.58.0/
 $ bin/startup
 ...
 Started up centraldogma successfully: &lt;pid&gt;
@@ -225,9 +225,6 @@ Shut down centraldogma successfully.</pre></div>
 <p>If you are working with source code instead of binary distribution, you can use the Gradle tasks:</p>
 <div class="highlight-shell notranslate"><div class="highlight hljs"><pre class="shell">$ ./gradlew startup
 $ ./gradlew shutdown</pre></div>
-</div>
-<p>You can also tail the log file:</p>
-<div class="highlight-shell notranslate"><div class="highlight hljs"><pre class="shell">$ ./gradlew tail</pre></div>
 </div>
 </div>
 </div>
